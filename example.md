@@ -1,9 +1,9 @@
 
 ![Shield](https://img.shields.io/badge/license-ISC-blue)
-# a
+# readmeGenerator
 
 ## Description
-a
+Using node.js and inquirer, I created a program which uses command line inputs to generate a readme.md.
 
 ## Table of Contents
 * [Installation](#installation)
@@ -14,21 +14,21 @@ a
 * [Questions](#questions)
 
 ## Installation
-a
+After cloning, run npm init -y and npm install to get inquirer and ensure that everything is working.
 
 ## Usage
-a
+Run node index.js in the command line from the root, and follow the prompts to generate a markdown file.
 
 ## License
 This application is covered under the ISC license.
 
 ## Contributing
-a
+N/A
 
 ## Tests
-a
+N/A
 
 ## Questions
-<a href="https://github.com/a">Github</a>
+<a href="https://github.com/tmessall">Github</a>
 
-Email me at: a with any further questions.
+Email me at tmessall17@gmail.com with any further questions.
