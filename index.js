@@ -47,7 +47,13 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
-    console.log(data);
+    fs.writeFile(fileName, data, function (err) {
+        if (err) {
+            console.log("Error");
+        } else {
+            console.log("File written.");
+        }
+    });
 }
 
 // function to initialize program
@@ -56,7 +62,7 @@ function init() {
         try {
             writeToFile("example.md", generateMarkdown(response));
         } catch (error) {
-            console.log("error");
+            console.log("Error");
         }
     })
 }

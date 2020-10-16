@@ -8,12 +8,12 @@ function generateMarkdown(data) {
 ${data.description}
 
 ## Table of Contents
-[Installation](#installation)
-[Usage](#usage)
-[License](#license)
-[Contributing](#contributing)
-[Tests](#tests)
-[Questions](#questions)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
 
 ## Installation
 ${data.installation}
@@ -32,7 +32,8 @@ ${data.testIns}
 
 ## Questions
 <a href="https://github.com/${data.ghUser}">Github</a>
-Email me at: ${data.email} with any further questions.
+
+Email me at ${data.email} with any further questions.
 `;
 }
 
