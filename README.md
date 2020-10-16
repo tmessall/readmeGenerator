@@ -9,7 +9,6 @@ Using node.js and inquirer, I created a program which uses command line inputs t
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
-* [License](#license)
 * [Questions](#questions)
 
 ## Installation
