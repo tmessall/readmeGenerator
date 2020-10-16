@@ -45,8 +45,13 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-    inquirer.prompt(questions).then(function () {
-        console.log("Asked questions");
+    inquirer.prompt(questions).then(function (response) {
+        try {
+            console.log(response);
+        } catch (error) {
+            console.log("error");
+        }
+        
     })
 }
 
