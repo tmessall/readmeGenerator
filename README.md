@@ -10,8 +10,6 @@ Using node.js and inquirer, I created a program which uses command line inputs t
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
-* [Contributing](#contributing)
-* [Tests](#tests)
 * [Questions](#questions)
 
 ## Installation
